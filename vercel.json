@@ -1,9 +1,10 @@
 {
     "rewrites" : [
         {
-            "source": "/:path*",
-            "destination": "/portfolio.html"
+            "source": "/(.*)",
+            "destination": "/"
         }
     ]
 
 }
+
